@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.12.1+cu113
+torchvision==0.13.1+cu113
+
+transformers==4.18.0
+tensorboard==2.9.1
+pytorch-lightning==1.6.4
+timm==0.5.4
+pycocotools==2.0.5
+ninja==1.10.2
+matplotlib==3.4.3
+pandas==1.2.5
