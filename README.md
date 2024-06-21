@@ -5,6 +5,7 @@
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2404.02072-green)](https://arxiv.org/abs/2404.02072)
 [![CVPR](https://img.shields.io/badge/CVPR-2024-steelblue)](https://openaccess.thecvf.com/content/CVPR2024/html/Im_EGTR_Extracting_Graph_from_Transformer_for_Scene_Graph_Generation_CVPR_2024_paper.html)
 [![Poster](https://img.shields.io/badge/Poster-Image-blue)](https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202024/31166.png?t=1717403826.1333497)
+[![Oral](https://img.shields.io/badge/Oral-Slides-orange)](https://cvpr.thecvf.com/media/cvpr-2024/Slides/32054.pdf)
 [![Youtube](https://img.shields.io/badge/Youtube-Video-red)](https://www.youtube.com/watch?v=w4DWd3mp2Wk)
 
 </div>
