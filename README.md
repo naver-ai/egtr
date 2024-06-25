@@ -4,8 +4,8 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2404.02072-green)](https://arxiv.org/abs/2404.02072)
 [![CVPR](https://img.shields.io/badge/CVPR-2024-steelblue)](https://openaccess.thecvf.com/content/CVPR2024/html/Im_EGTR_Extracting_Graph_from_Transformer_for_Scene_Graph_Generation_CVPR_2024_paper.html)
-[![Poster](https://img.shields.io/badge/Poster-Image-blue)](https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202024/31166.png?t=1717403826.1333497)
-[![Oral](https://img.shields.io/badge/Oral-Slides-orange)](https://cvpr.thecvf.com/media/cvpr-2024/Slides/32054_5NYcnxT.pdf)
+[![Poster](https://img.shields.io/badge/Poster-Image-blue)](https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202024/31166.png?t=1719244488.0932813)
+[![Oral](https://img.shields.io/badge/Oral-Slides-orange)](https://cvpr.thecvf.com/media/cvpr-2024/Slides/32054_UhZdVUe.pdf)
 [![Youtube](https://img.shields.io/badge/Youtube-Video-red)](https://www.youtube.com/watch?v=w4DWd3mp2Wk)
 
 </div>
@@ -62,7 +62,7 @@ dataset
 
 ### Prepare pre-trained object detector
 
-To speed up convergence, we first pre-train the object detector with the target dataset. The pre-trained object detector for Visual Genome dataset can be downloaded using the following link. [[Link]](https://drive.google.com/file/d/1vEN-Nat8CtrqP9LoKj0llgUJjGoI7CX7/view?usp=sharing)
+To speed up convergence, we first pre-train the object detector with the target dataset. The pre-trained object detector can be downloaded using the following link. [[VG]](https://drive.google.com/file/d/1vEN-Nat8CtrqP9LoKj0llgUJjGoI7CX7/view?usp=drive_link) [[OI]](https://drive.google.com/file/d/1GsGsmYwHfZ55BJwBCWb9-_tovMfUmWBD/view?usp=drive_link)
 
 (Optional) The object detector can be trained from scratch as follows:
 
@@ -88,7 +88,7 @@ python pretrain_detr.py --data_path dataset/visual_genome --output_path $OUTPUT_
 
 ### Model train
 
-We train EGTR using the pre-trained object detector. Trained EGTR for Visual Genome dataset can be downloaded at the following link. [[Link]](https://drive.google.com/file/d/18phcRxbrEI7HqIuM2OLAPuwAF5k3pUC2/view?usp=sharing)
+We train EGTR using the pre-trained object detector. Trained EGTR can be downloaded at the following link. [[VG]](https://drive.google.com/file/d/18phcRxbrEI7HqIuM2OLAPuwAF5k3pUC2/view?usp=drive_link) [[OI]](https://drive.google.com/file/d/1JqWNwf1QvDsTbGFigEXXN_8qv3VF-lGP/view?usp=drive_link)
 
 ```python
 # Train EGTR (using 8 V100 gpus)
